@@ -1,0 +1,4 @@
+Django>=5.2,<6.1
+django-bootstrap4>=25.2,<26.0
+gunicorn>=23.0,<24.0
+whitenoise>=6.9,<7.0

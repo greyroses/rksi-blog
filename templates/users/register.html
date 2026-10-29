@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% load bootstrap4 %}{% block content %}<div class="card shadow-sm"><div class="card-body"><h1 class="h3">Регистрация</h1><form method="post">{% csrf_token %}{% bootstrap_form form %}{% buttons %}<button class="btn btn-success" type="submit">Создать аккаунт</button>{% endbuttons %}</form></div></div>{% endblock %}
